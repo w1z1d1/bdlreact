@@ -1,13 +1,90 @@
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  monospace;
 }
+
+#registerDiv{
+  width:350px;
+  height:400px;
+  background-color: #fffff7;
+  border-radius:10px;
+//opacity: 0.6;
+  font-family: 幼圆;
+  font-size: medium;
+  color:black;
+  border:1px solid #ffcc00;
+  -webkit-box-shadow: 0 0 10px #ffcc00;
+  /*==============================居中=============*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+}
+
+#title{
+  margin: 0 auto;
+  width: 300px;
+  display: block;
+  text-align: center;
+  font-family: 手书体;
+  font-size: xx-large;
+}
+
+#title1{
+  margin: 0 auto;
+  width: 300px;
+  height: 30px;
+  display: block;
+  text-align: center;
+  font-family: "Ink Free";
+  font-size: x-large;
+}
+
+.text{
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+#components-layout-demo-fixed .logo {
+  width: 120px;
+  height: 31px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px 24px 16px 0;
+  float: left;
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+
+#registerSuccess{
+
+  position:absolute;
+  background-color: white;
+  border:1px solid #ffcc00;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 100
+}
+
+
